@@ -1,7 +1,7 @@
 Package: SARC
 Type: Package
 Title: Statistical Analysis of Regions with CNVs
-Version: 1.8.0
+Version: 1.9.0
 Authors@R: person(given = "Krutik", family = "Patel", role = c("aut", "cre"), email = "nkp68@newcastle.ac.uk", comment=c(ORCID="0000-0001-6806-8675"))
 Description: Imports a cov/coverage file (normalised read coverages from BAM files) and a cnv file (list of CNVs - similiar to a BED file) from WES/ WGS CNV (copy number variation) detection pipelines and utilises several metrics to weigh the likelihood of a sample containing a detected CNV being a true CNV or a false positive. Highly useful for diagnostic testing to filter out false positives to provide clinicians with fewer variants to interpret. SARC uniquely only used cov and csv (similiar to BED file) files which are the common CNV pipeline calling filetypes, and can be used as to supplement the Interactive Genome Browser (IGV) to generate many figures automatedly, which can be especially helpful in large cohorts with 100s-1000s of patients.
 Encoding: UTF-8
